@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PS Alumni</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+<body>
+  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#"><img src="assets/logo.png" alt="Product School" class="ml-3"></a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">{{Student Name}} <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+<div class="main-content d-flex flex-row">
+
+  <div class="user-nav mr-5">
+    <h1>Hello {{Student Name}}</h1>
+    <hr>
+    <ul class="">
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Jobs</a></li>
+      <li><a data-toggle="collapse" href="#connect-with-alumni-toggle" aria-expanded="false" aria-controls="connect-with-alumni-toggle">Connect With Alumni</a></li>
+        <div class="collapse" id="connect-with-alumni-toggle">
+          <ul>
+            <li><a class="">Find an Alumni</a></li>
+            <li><a class="">Messages</a></li>
+          </ul>
+        </div>
+      <li><a data-toggle="collapse" href="#network-toggle" aria-expanded="false" aria-controls="network-toggle">Network</a></li>
+        <div class="collapse" id="network-toggle">
+          <ul>
+            <li><a class="">Alumni Events</a></li>
+            <li><a class="">Weekly Workshops</a></li>
+          </ul>
+        </div>
+      <li><a data-toggle="collapse" href="#course-materials-toggle" aria-expanded="false" aria-controls="course-materials-toggle">Course Materials</a></li>
+        <div class="collapse" id="course-materials-toggle">
+          <ul>
+            <li><a class="">Product Management</a></li>
+            <li><a class="">Coding For Managers</a></li>
+            <li><a class="">Data For Manager</a></li>
+          </ul>
+        </div>
+    </ul>
+  </div>
+
+  <div>
+    <h1>Dashboard</h1>
+    <hr>
+  </div>
+
+</div>
+
+</div>
+</body>
