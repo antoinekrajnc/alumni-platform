@@ -1,3 +1,51 @@
-.container {
-  width: 95%;
+body {
+  font-family: "Montserrat";
+  font-weight: 200;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+hr {
+  height: 2px;
+  background: #00d691;
+  border-top: none;
+ }
+
+.greeting {
+   font-size: 2rem;
+ }
+
+.user-nav {
+  background: #fff;
+  height: 95vh;
+}
+
+.page-content{
+  background:#f5f5f5;
+  box-shadow: 0px 2px 1px 1px #ccc;
+}
+
+.slack-img {
+  box-shadow: 0px 2px 1px 1px 1px #ccc;
+}
+
+.latest-jobs {
+  background-color: #00d691;
+  font-weight:300;
+}
+
+.unread-messages {
+  background-color: #ff3d4e;
+  font-weight:300;
 }
