@@ -29,6 +29,12 @@ hr {
 .user-nav {
   background: #fff;
   height: 95vh;
+  position:fixed;
+  z-index: 1;
+}
+
+.job-offers, .page-content {
+  margin-left: auto;
 }
 
 .page-content{
@@ -48,4 +54,13 @@ hr {
 .unread-messages {
   background-color: #ff3d4e;
   font-weight:300;
+}
+
+.job-logo {
+  width:8rem;
+  height:5rem;
+}
+
+.btn-success {
+  background-color: #00d691;
 }
