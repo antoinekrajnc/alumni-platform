@@ -53,7 +53,7 @@
           <ul>
             <li class="m-2"><a class="" href="http://learn.productschool.com" target="_blank">Product Management</a></li>
             <li class="m-2"><a class="" href="http://learn.productschool.com" target="_blank">Coding For Managers</a></li>
-            <li class="m-2"><a class="" href="http://learn.productschool.com" target="_blank">Data For Manager</a></li>
+            <li class="m-2"><a class="" href="http://learn.productschool.com" target="_blank">Data Analytics For Managers</a></li>
           </ul>
         </div>
     </ul>
