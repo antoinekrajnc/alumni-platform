@@ -32,12 +32,12 @@
     <h1 class="greeting">Hello {{Student}}</h1>
     <hr class="col-3 ml-1 row justify-content-start"></hr>
     <ul class="nav flex-column">
-      <li class="m-2"><a href="index.html">Dashboard</a></li>
+      <li class="m-2"><a href="/">Dashboard</a></li>
       <li class="m-2"><a href="jobs.html">Jobs</a></li>
       <li class="m-2"><a data-toggle="collapse" href="#connect-with-alumni-toggle" aria-expanded="false" aria-controls="connect-with-alumni-toggle">Connect With Alumni</a></li>
         <div class="collapse" id="connect-with-alumni-toggle">
           <ul>
-            <li class="m-2"><a class="" href="alumni.html">Find an Alumni</a></li>
+            <li class="m-2"><a class="" href="alumni.html">Find an Alumnus</a></li>
             <li class="m-2"><a class="" href="message.html">Messages</a></li>
           </ul>
         </div>
